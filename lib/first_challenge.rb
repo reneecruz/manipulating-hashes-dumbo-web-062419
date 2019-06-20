@@ -38,8 +38,6 @@ def first_challenge
 #favorite_icecream_flavor.delete_if{|key, value|value == "strawberry"}
 
 end
-        
-  contacts
 
 
   #remember to return your newly altered contacts hash!
