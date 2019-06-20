@@ -21,6 +21,7 @@ def first_challenge
       
       if attribute == :favorite_icecream_flavor
         value.each do |flavor|
+          contacts.has_value?("strawberry")
           #flavor == "strawberry"
   
 #array.delete_if {|flavor| ==  "strawberry" }  
