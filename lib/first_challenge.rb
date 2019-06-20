@@ -37,10 +37,6 @@ def first_challenge
 
 #favorite_icecream_flavor.delete_if{|key, value|value == "strawberry"}
 
-          puts "#{flavor}"
-      end
-    end
-  end
 end
         
   contacts
