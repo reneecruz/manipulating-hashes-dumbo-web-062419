@@ -18,7 +18,7 @@ def first_challenge
   
     contacts.each do |person, data|
       data.each do |attribute, value|
-      
+  binding.pry    
       if attribute == :favorite_icecream_flavor
         value.each do |flavor|
           contacts.has_value?("strawberry")
