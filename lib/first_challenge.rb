@@ -17,6 +17,7 @@ def first_challenge
   #your code here
   contacts["Freddy Mercury"][:favorite_icecream_flavors].each_with_index do |index, flavor|
       if flavor == "strawberry"
+        
   end
   
     #contacts.each do |person, data|
