@@ -25,9 +25,10 @@ def first_challenge
   #array.delete_if {|flavor| ==  "strawberry" }  
   #contacts["Freddy Mercury"][:favorite_icecream_flavor].delete_if {|attribute, value| value >= "strawberry" } 
           
-          #contacts.delete_if(:favorite_icecream_flavor ["strawberry"])
-      
+#contacts.delete_if(:favorite_icecream_flavor ["strawberry"])
+
 #favorite_icecream_flavor.delete_if{|key, value|value == "strawberry"}
+
           puts "#{flavor}"
       end
     end
