@@ -15,7 +15,7 @@ def first_challenge
   }
 
   #your code here
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].each
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].each_with_index
   
     #contacts.each do |person, data|
       #data.each do |attribute, value|
