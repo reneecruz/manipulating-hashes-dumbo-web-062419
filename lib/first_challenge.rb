@@ -17,7 +17,7 @@ def first_challenge
   #your code here
   contacts["Freddy Mercury"][:favorite_icecream_flavors].each_with_index do |index, flavor|
       if flavor == "strawberry"
-         contacts["Freddy Mercury"][:favorite_icecream_flavors].delete
+         contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_at(index)
       end
   end
   
