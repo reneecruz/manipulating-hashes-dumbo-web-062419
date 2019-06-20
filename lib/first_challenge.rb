@@ -20,7 +20,7 @@ def first_challenge
       flavor == "strawberry"
      end
   #
-  binding.pry
+  #binding.pry
  contacts
 end
 
