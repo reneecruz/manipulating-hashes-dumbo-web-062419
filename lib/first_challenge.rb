@@ -15,13 +15,13 @@ def first_challenge
   }
 
   #your code here
-  
-    contacts.each do |person, data|
-      data.each do |attribute, value|
+  contacts["Freddy Mercury"][:favorite_icecream_flavors]
+    #contacts.each do |person, data|
+      #data.each do |attribute, value|
   binding.pry    
-      if attribute == :favorite_icecream_flavor
-        value.each do |flavor|
-          contacts.has_value?("strawberry")
+      #if attribute == :favorite_icecream_flavor
+        #value.each do |flavor|
+          #contacts.has_value?("strawberry")
           #flavor == "strawberry"
   
 #array.delete_if {|flavor| ==  "strawberry" }  
