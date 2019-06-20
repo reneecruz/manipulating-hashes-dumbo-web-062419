@@ -8,6 +8,6 @@ def second_challenge
 
   #code your solution here!
 
-  groceries[:dairy][:vegetable][:meat][:grains].values
+  groceries.values
 
 end
