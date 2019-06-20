@@ -19,12 +19,13 @@ def first_challenge
       data.each do |attribute, value|
       
       if attribute == :favorite_icecream_flavor
-        value.each do |flavor|
+        value.delete_if do |flavor|
+          flavor == "strawberry"
         #array.delete_if {|flavor| ==  "strawberry" }  
           #contacts["Freddy Mercury"][:favorite_icecream_flavor].delete_if {|attribute, value| value >= "strawberry" } 
           #contacts.delete_if(:favorite_icecream_flavor ["strawberry"])
           e.
-          favorite_icecream_flavor.delete_if{|key, value|value == "strawberry"}
+          #favorite_icecream_flavor.delete_if{|key, value|value == "strawberry"}
           puts "#{flavor}"
       end
     end
